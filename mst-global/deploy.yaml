@@ -12,6 +12,8 @@ spec:
       labels:
         app: sample-app
     spec:
+      imagePullSecrets:
+      - name: dockerhub-secret   # <--- Add this
       containers:
       - name: sample-app
         image: ritishreddy/sample-app:1.19

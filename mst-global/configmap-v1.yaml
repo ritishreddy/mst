@@ -5,6 +5,6 @@ metadata:
 data:
   index.html: |
     <html>
-    <h1>Hello from VERSION 1</h1>
-    <p>This is the old version of the application</p>
+    <h1>Hello from VERSION 2</h1>
+    <p>This is the NEW version of the application</p>
     </html>

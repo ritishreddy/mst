@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: nginx:1.19
+        image: nginx:latest
         volumeMounts:
         - name: web-content
           mountPath: /usr/share/nginx/html/index.html
